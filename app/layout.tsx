@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Chat-Api-Provider",
+  title: "Easy API",
   description: "用于各种聊天大模型api的转发，以及类openai似流式处理",
 };
 

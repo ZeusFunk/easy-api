@@ -1,7 +1,6 @@
 import { NextRequest } from "next/server";
 
 export async function POST(req: NextRequest) {
-  // const apiKey = process.env.OPENAI_API_KEY;
   const url = process.env.OPENAI_PROXY_URL + "/v1/chat/completions";
   const body = await req.json();
 
